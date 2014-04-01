@@ -1,0 +1,16 @@
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\PageObjects.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\PageObjects.pdb
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\FluentAutomation.Core.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\FluentAutomation.SeleniumWebDriver.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\FluentAutomation.WatiN.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\Newtonsoft.Json.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WatiN.Core.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WebDriver.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WebDriver.Support.dll
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\Newtonsoft.Json.xml
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WatiN.Core.xml
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WebDriver.xml
+D:\PageObjects\PageObjects\PageObjects\bin\Debug\WebDriver.Support.xml
+D:\PageObjects\PageObjects\PageObjects\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
+D:\PageObjects\PageObjects\PageObjects\obj\Debug\PageObjects.dll
+D:\PageObjects\PageObjects\PageObjects\obj\Debug\PageObjects.pdb
