@@ -1,7 +1,9 @@
 using FluentAutomation;
-namespace PageObjects.Tests.Pages
+using PageObjects.Base;
+
+namespace PageObjects.Tests
 {
-class StartUpPage : PageBase.PageBase
+class StartUpPage : PageBase
 	{
 		 
 		public StartUpPage(SeleniumWebDriver.Browser driver)
@@ -12,19 +14,19 @@ class StartUpPage : PageBase.PageBase
 		
 		public void EnterSurName(string surName)
 		{
-			I.Enter(surName).In("#surname");
+			this.I.Enter(surName).In("#surname");
 		}
 	
 		
 		public void ClickSubmit()
 		{
-			I.Click("#generalSearch");
+			this.I.Click("#generalSearch");
 			
 		}
 		
 		public void VerifyResult()
 		{
-						I.Expect.Count(48).Of("li.well.vcard.general.ng-scope");
+						this.I.Expect.Count(48).Of("li.well.vcard.general.ng-scope");
 		}
 
 	}
