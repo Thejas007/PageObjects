@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using FluentAutomation;
 
-namespace PageObjects
+namespace PageObjects.Base
 {
     public class PageBase
     {
@@ -14,28 +10,28 @@ namespace PageObjects
 		public PageBase(SeleniumWebDriver.Browser browser)
 		{
 			SeleniumWebDriver.Bootstrap(browser);
-			FluentTest = new FluentTest();
-			I = FluentTest.I;
+			this.FluentTest = new FluentTest();
+			this.I = this.FluentTest.I;
 
 		}
 		public PageBase()
 		{
 			SeleniumWebDriver.Bootstrap(SeleniumWebDriver.Browser.Chrome);
-			FluentTest = new FluentTest();
-			I = FluentTest.I;
+			this.FluentTest = new FluentTest();
+			this.I = this.FluentTest.I;
 
 		}
 
 		/** Open  */
 		public void OpenUrl(string url)
 		{
-			I.Open(url);
-            I.Wait(5);
+			this.I.Open(url);
+            this.I.Wait(5);
 		}
 
 		public void Close()
 		{
-			I.Dispose();
+			this.I.Dispose();
 
 		}
 
